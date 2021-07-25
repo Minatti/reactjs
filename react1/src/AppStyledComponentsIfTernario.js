@@ -12,9 +12,25 @@ const Site = styled.div`
 `;
 const Botao = styled.button`
     color: #FF0000;
-    font-size: 12px;
-    background-color: ${props => props.active == true ? '#0000FF' : '#FFFb00'};
-    color: ${props => props.active == true ? '#FFF' : '#000'};
+    padding: 10px 15px;
+    font-size: 19px;
+    border: 3px solid #FF0000;
+    color: $FF0000;
+    background-color: #FFF;
+    margin: 5px;
+    border-radius: 5px;
+`;
+
+
+const BotaoPequeno = styled.button`
+    color: #FF0000;
+    padding: 5px 10px;
+    font-size: 19px;
+    border: 2px solid #FF0000;
+    color: $FF0000;
+    background-color: #FFF;
+    margin: 5px;
+    border-radius: 5px;
 `;
 
 
@@ -22,8 +38,8 @@ const Botao = styled.button`
 function App(){
     return (
         <Site>
-           <Botao active = {true}>Clique Aqui</Botao>
-           <Botao active = {false}>Clique Aqui</Botao>
+           <Botao>Clique Aqui</Botao>
+           <BotaoPequeno>Clique Aqui</Botao>
         </Site>
     );
 }
