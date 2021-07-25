@@ -1,46 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Usando uma função padrao
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+// Basicamente React vai funcionar com essa estrutura
+
+function Avatar(props) {
+    return (
+        <div className="avatar">
+            <img src={props.user.url} alt={props.user.name} />
+            <br/>
+            <span>{props.user.name}</span>
+        </div>
+    );
 }
-*/
-let App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Usando uma Variavel
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function App(){
+    let user = {
+        url:"https://www.google.com.br/google.jpg",
+        name:"Luan Carminatti"
+    }
+    return <>
+        <Avatar user={user} />
+    </>;
+
+
 }
 
 
