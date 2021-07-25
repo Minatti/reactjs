@@ -1,5 +1,5 @@
 *** git bash ***
-
+git config --global core.autocrlf true
 . Na pasta raiz do projeto ou dos projetos
 . execute = git init
 . no site do git, acesse = https://github.com/settings/keys
