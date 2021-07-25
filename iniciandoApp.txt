@@ -1,0 +1,25 @@
+*** Instalando e configurando ambiente para React ***
+
+#### S.O - Windows #######
+
+#Step 1 | Instale Node Js e configure a váriavel de ambiente
+
+
+.   Link: https://nodejs.org/en/download/
+
+.   Download concluído e instalação completa
+
+.   Tecla Windows + R =  Executar
+.   Digite = sysdm.cpl
+.   Vá na aba > Avançado > Variaveis de Ambiente
+
+. Identifique o caminho raiz do node.exe
+. Adicione esse caminho "C:\Program Files\nodejs" indo na caixa "Variaveis do sistema"
+. 
+    Nome da variavel = Node ou outro nome sugestivo
+    Valor da variavel = C:\Program Files\nodejs
+    OK
+
+. Agora faça o teste usando o gerenciador o npm...
+
+

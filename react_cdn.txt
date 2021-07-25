@@ -1,0 +1,5 @@
+É possível importar o react por CDN
+
+Ou seja ...
+
+via link dentro da estrutura HTML ^.-

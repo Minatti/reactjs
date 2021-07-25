@@ -1,0 +1,5 @@
+. React funciona de qual maneira?
+
+Trabalha com o VirtualDOM, usando diretamente o processamento na M RAM,
+adicionando no virtualDOM, comparando o que já existe e mostrando o que existe de novo ou seja o efeito é instantâneo
+para alguém que esta programando.

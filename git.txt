@@ -1,0 +1,17 @@
+*** git bash ***
+
+. Na pasta raiz do projeto ou dos projetos
+. execute = git init
+. no site do git, acesse = https://github.com/settings/keys
+. clique no botao para gerar uma nova chave
+. vá terminal do proprio bash digite = ssh-keygen -t ed25519 -C luancarminatt@gmail.com
+. vá até a pasta do user local, digite = cat id_ed pub para ver a sua chave, copie e cole na cx de txt e salve
+
+** Principais comandos **
+git remote add origin git@github.com:Minatti/reactjs.git = adicionando o repositorio remoto do projeto
+git branch base-test
+deletando um branch > git branch --delete "nome-branch"
+git add "nome arquivo"
+git add . "adiciona todos"
+git commit -m "primeiro commit"
+git push origin (master=branch) 
