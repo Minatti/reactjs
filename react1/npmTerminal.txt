@@ -1,0 +1,2 @@
+npm start = Inicia app
+npm install styled-components --save = instala biblioteca
