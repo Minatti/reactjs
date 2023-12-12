@@ -1,0 +1,17 @@
+Criar projeto:
+
+* verifique a versao do seu node, precisa ser igual ou maior 18.7
+* npm update -g create-next-app
+*npx create-next-app
+    -- ts (s)
+    -- eslint (n)
+    -- Tailwind Css (s)
+    -- src dir (s)
+    -- App Routes (s)
+    -- import alias (n)
+
+Testar projeto executando:
+
+*cd my-first-app
+*npm run dev
+*acessar locahttp://localhost:3000

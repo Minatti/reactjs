@@ -1,8 +1,0 @@
-*** Começando o projeto ***
-
-. Abra um terminal
-. vá até o dir do projeto
-. execute > npx create-react-app "nome projeto"
-. No Terminal na raiz do projeto execute > npm start 
-
-# REACT ONDELAINE
