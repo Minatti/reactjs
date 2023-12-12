@@ -6,3 +6,5 @@
 
     * aula 01: Introdução ao Next (nextjs.org)
     * aula 02: Criando um projeto com Next
+    * aula 03: Visão geral das pastas e arquivos
+    
