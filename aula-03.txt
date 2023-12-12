@@ -1,0 +1,11 @@
+Visão geral das pastas e arquivos
+
+
+node_modules = blibliotecas em geral js
+public = arquivos publicos, icones, imagens e etc
+nextconfig = configuração next
+postcss = configuração aux para o tailwind
+src = principal do projeto, quando escolhido na opção de criação para criar a pasta src, dentro ficará o dir app
+app = rotas
+tailwindconfig = configuração da biblioteca tailwind
+tsconfig = configuração do typescript
